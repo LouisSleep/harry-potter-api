@@ -1,0 +1,45 @@
+.Gryffindor {
+  border: solid #700D1F;
+  margin: 16px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+  padding: 14px;
+
+}
+
+.Slytherin {
+  border: solid #016654;
+  margin: 16px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+  padding: 14px;
+}
+
+.Hufflepuff{
+  border: solid #D7B02B;
+  margin: 16px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+  padding: 14px;
+}
+
+.Ravenclaw{
+  border: solid #05487B;
+  margin: 16px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+  padding: 14px;
+}
+
+img {
+  width: 100px;
+  height: auto;
+}
