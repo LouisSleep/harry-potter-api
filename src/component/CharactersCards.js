@@ -1,6 +1,7 @@
 import React from 'react'
 
-export default function Characters(props) {
+
+export default function CharactersCards(props) {
     return (
         <div className={props.housesss}>
             <div id={props.housesss}></div>
@@ -10,3 +11,4 @@ export default function Characters(props) {
         </div>
     )
 }
+
