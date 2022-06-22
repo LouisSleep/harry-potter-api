@@ -4,7 +4,7 @@ import Characters from './Characters'
 import './App.css'
 
 export default function App() {
-  const [characters, setCharacters] = useState()
+  const [characters, setCharacters] = useState([])
 
   useEffect(() => {
     const getCharacters = async () => {
@@ -19,31 +19,23 @@ export default function App() {
     getCharacters()
 
   }, [])
-
-
-
-
-
-
-
-
   return (
     <>
-      <h1>
-        hello
-      </h1>
 
-      {
-        characters.map((item,index) => (
-          <Characters
-            key={index}
-            name_char={item.name}
-            housesss={item.house}
-            img={item.image}
+      <div className='card-list'>
+        {
+          characters.slice(0, 15).map((item, index) => (
+            <Characters
+              key={index}
+              name_char={item.name}
+              housesss={item.house}
+              img={item.image}
 
-          />
-        ))
-      }
+            />
+          ))
+        }
+      </div>
+
 
 
 
